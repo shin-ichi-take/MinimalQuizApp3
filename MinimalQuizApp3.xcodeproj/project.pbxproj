@@ -13,6 +13,9 @@
 		0539192C25E641E90027C7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0539192A25E641E90027C7CB /* Main.storyboard */; };
 		0539192E25E641EA0027C7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0539192D25E641EA0027C7CB /* Assets.xcassets */; };
 		0539193125E641EA0027C7CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0539192F25E641EA0027C7CB /* LaunchScreen.storyboard */; };
+		0539193B25E642510027C7CB /* mark_batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0539193925E642510027C7CB /* mark_batsu.png */; };
+		0539193C25E642510027C7CB /* mark_maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0539193A25E642510027C7CB /* mark_maru.png */; };
+		0539193F25E642B20027C7CB /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539193E25E642B20027C7CB /* Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0539192D25E641EA0027C7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0539193025E641EA0027C7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0539193225E641EA0027C7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0539193925E642510027C7CB /* mark_batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark_batsu.png; sourceTree = "<group>"; };
+		0539193A25E642510027C7CB /* mark_maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark_maru.png; sourceTree = "<group>"; };
+		0539193E25E642B20027C7CB /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				0539192425E641E90027C7CB /* AppDelegate.swift */,
 				0539192625E641E90027C7CB /* SceneDelegate.swift */,
 				0539192825E641E90027C7CB /* ViewController.swift */,
+				0539193E25E642B20027C7CB /* Quiz.swift */,
+				0539193925E642510027C7CB /* mark_batsu.png */,
+				0539193A25E642510027C7CB /* mark_maru.png */,
 				0539192A25E641E90027C7CB /* Main.storyboard */,
 				0539192D25E641EA0027C7CB /* Assets.xcassets */,
 				0539192F25E641EA0027C7CB /* LaunchScreen.storyboard */,
@@ -124,8 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0539193C25E642510027C7CB /* mark_maru.png in Resources */,
 				0539193125E641EA0027C7CB /* LaunchScreen.storyboard in Resources */,
 				0539192E25E641EA0027C7CB /* Assets.xcassets in Resources */,
+				0539193B25E642510027C7CB /* mark_batsu.png in Resources */,
 				0539192C25E641E90027C7CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +150,7 @@
 			files = (
 				0539192925E641E90027C7CB /* ViewController.swift in Sources */,
 				0539192525E641E90027C7CB /* AppDelegate.swift in Sources */,
+				0539193F25E642B20027C7CB /* Quiz.swift in Sources */,
 				0539192725E641E90027C7CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
